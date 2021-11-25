@@ -1,0 +1,13 @@
+bootstrapServer: localhost:9092
+keyDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+valueDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+topicCardInfo: card-info
+groupId: card-info-group
+
+keySerializer: org.apache.kafka.common.serialization.StringSerializer
+valueSerializer: org.apache.kafka.common.serialization.StringSerializer
+topicEncryptedCardInfo: encrypted-card-info
+encryptionKey: Bar12345Bar12345
+
+redisHost: localhost
+redisPort: 6379
